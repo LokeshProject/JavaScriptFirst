@@ -30,3 +30,8 @@ console.log(arry.indexOf(9));
 // when index present then it give that index value
 console.log(arry.indexOf(3));
 
+const newArry =[10,20,30,40,50,60,70,80,90]
+console.log(newArry.slice(1,5));
+console.log(newArry.splice(0,3));
+
+
