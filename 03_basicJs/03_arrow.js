@@ -49,6 +49,7 @@ const chai1 = (num1 , num2 ) => (num1+num2)
 const chai2 = (num1 , num2 ) => num1+num2  
 const chai3 = (num1 , num2 ) => ({name1:'Lokesh',name2:'das',name3:'Ram',name4:'Syam'})
 const chai4 = (num1 , num2 ) => (['Lokesh','Das'])
+const chai5 = (num1 , num2 ) => ['num1','num2']
 
 console.log(chai(1,5));
 console.log(chai1(9,5));
