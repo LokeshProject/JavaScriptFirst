@@ -12,3 +12,8 @@
   (() => {
     console.log('ram');
   })();
+
+
+  ((Name) => {
+    console.log(`My name is ${Name}`);
+  })('lokesh');
